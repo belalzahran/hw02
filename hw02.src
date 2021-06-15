@@ -1,0 +1,206 @@
+Script started on Sun 13 Jun 2021 10:11:17 PM PDT
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m date
+Sun Jun 13 22:11:22 PDT 2021
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m ls -l
+total 20
+-rw-rw-r-- 1 cs1c cs1c 6201 Jun 13 22:00 CardDeck.cpp
+-rw-rw-r-- 1 cs1c cs1c 4028 Jun 12 19:29 CardDeck.h
+-rw-rw-r-- 1 cs1c cs1c 2306 Jun 13 21:58 hw02.cpp
+-rw-rw-r-- 1 cs1c cs1c    0 Jun 13 22:11 hw02.src
+-rw-rw-r-- 1 cs1c cs1c  330 Jun 12 14:11 Makefile
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m make all
+g++ -std=c++14 -Wall -g -c CardDeck.cpp -o CardDeck.o
+g++ -std=c++14 -Wall -g hw02.cpp -o hw02 CardDeck.o
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m ls -l
+total 188
+-rw-rw-r-- 1 cs1c cs1c  6201 Jun 13 22:00 CardDeck.cpp
+-rw-rw-r-- 1 cs1c cs1c  4028 Jun 12 19:29 CardDeck.h
+-rw-rw-r-- 1 cs1c cs1c 87096 Jun 13 22:11 CardDeck.o
+-rwxrwxr-x 1 cs1c cs1c 80128 Jun 13 22:11 [0m[01;32mhw02[0m
+-rw-rw-r-- 1 cs1c cs1c  2306 Jun 13 21:58 hw02.cpp
+-rw-rw-r-- 1 cs1c cs1c     0 Jun 13 22:11 hw02.src
+-rw-rw-r-- 1 cs1c cs1c   330 Jun 12 14:11 Makefile
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m ./hw02
+*****************************************
+   Programmed by: Belal Zahran
+   Student ID   : 1176978
+   CS1B         : MTWT: 3:00 - 5:20pm
+   HW #2        : Deck of Cards
+*****************************************
+Original Deck Configuration: 
+
+#1. Ace of Clubs
+#2. Two of Clubs
+#3. Three of Clubs
+#4. Four of Clubs
+#5. Five of Clubs
+#6. Six of Clubs
+#7. Seven of Clubs
+#8. Eight of Clubs
+#9. Nine of Clubs
+#10. Ten of Clubs
+#11. Jack of Clubs
+#12. Queen of Clubs
+#13. King of Clubs
+#14. Ace of Diamonds
+#15. Two of Diamonds
+#16. Three of Diamonds
+#17. Four of Diamonds
+#18. Five of Diamonds
+#19. Six of Diamonds
+#20. Seven of Diamonds
+#21. Eight of Diamonds
+#22. Nine of Diamonds
+#23. Ten of Diamonds
+#24. Jack of Diamonds
+#25. Queen of Diamonds
+#26. King of Diamonds
+#27. Ace of Hearts
+#28. Two of Hearts
+#29. Three of Hearts
+#30. Four of Hearts
+#31. Five of Hearts
+#32. Six of Hearts
+#33. Seven of Hearts
+#34. Eight of Hearts
+#35. Nine of Hearts
+#36. Ten of Hearts
+#37. Jack of Hearts
+#38. Queen of Hearts
+#39. King of Hearts
+#40. Ace of Spades
+#41. Two of Spades
+#42. Three of Spades
+#43. Four of Spades
+#44. Five of Spades
+#45. Six of Spades
+#46. Seven of Spades
+#47. Eight of Spades
+#48. Nine of Spades
+#49. Ten of Spades
+#50. Jack of Spades
+#51. Queen of Spades
+#52. King of Spades
+
+
+Deck Configuration After 1 Perfect Shuffle: 
+
+#1. Ace of Clubs
+#27. Ace of Hearts
+#2. Two of Clubs
+#28. Two of Hearts
+#3. Three of Clubs
+#29. Three of Hearts
+#4. Four of Clubs
+#30. Four of Hearts
+#5. Five of Clubs
+#31. Five of Hearts
+#6. Six of Clubs
+#32. Six of Hearts
+#7. Seven of Clubs
+#33. Seven of Hearts
+#8. Eight of Clubs
+#34. Eight of Hearts
+#9. Nine of Clubs
+#35. Nine of Hearts
+#10. Ten of Clubs
+#36. Ten of Hearts
+#11. Jack of Clubs
+#37. Jack of Hearts
+#12. Queen of Clubs
+#38. Queen of Hearts
+#13. King of Clubs
+#39. King of Hearts
+#14. Ace of Diamonds
+#40. Ace of Spades
+#15. Two of Diamonds
+#41. Two of Spades
+#16. Three of Diamonds
+#42. Three of Spades
+#17. Four of Diamonds
+#43. Four of Spades
+#18. Five of Diamonds
+#44. Five of Spades
+#19. Six of Diamonds
+#45. Six of Spades
+#20. Seven of Diamonds
+#46. Seven of Spades
+#21. Eight of Diamonds
+#47. Eight of Spades
+#22. Nine of Diamonds
+#48. Nine of Spades
+#23. Ten of Diamonds
+#49. Ten of Spades
+#24. Jack of Diamonds
+#50. Jack of Spades
+#25. Queen of Diamonds
+#51. Queen of Spades
+#26. King of Diamonds
+#52. King of Spades
+
+Shuffle Number 2...
+Shuffle Number 3...
+Shuffle Number 4...
+Shuffle Number 5...
+Shuffle Number 6...
+Shuffle Number 7...
+
+The deck has been returned to its original configuration after 8 shuffles.
+
+#1. Ace of Clubs
+#2. Two of Clubs
+#3. Three of Clubs
+#4. Four of Clubs
+#5. Five of Clubs
+#6. Six of Clubs
+#7. Seven of Clubs
+#8. Eight of Clubs
+#9. Nine of Clubs
+#10. Ten of Clubs
+#11. Jack of Clubs
+#12. Queen of Clubs
+#13. King of Clubs
+#14. Ace of Diamonds
+#15. Two of Diamonds
+#16. Three of Diamonds
+#17. Four of Diamonds
+#18. Five of Diamonds
+#19. Six of Diamonds
+#20. Seven of Diamonds
+#21. Eight of Diamonds
+#22. Nine of Diamonds
+#23. Ten of Diamonds
+#24. Jack of Diamonds
+#25. Queen of Diamonds
+#26. King of Diamonds
+#27. Ace of Hearts
+#28. Two of Hearts
+#29. Three of Hearts
+#30. Four of Hearts
+#31. Five of Hearts
+#32. Six of Hearts
+#33. Seven of Hearts
+#34. Eight of Hearts
+#35. Nine of Hearts
+#36. Ten of Hearts
+#37. Jack of Hearts
+#38. Queen of Hearts
+#39. King of Hearts
+#40. Ace of Spades
+#41. Two of Spades
+#42. Three of Spades
+#43. Four of Spades
+#44. Five of Spades
+#45. Six of Spades
+#46. Seven of Spades
+#47. Eight of Spades
+#48. Nine of Spades
+#49. Ten of Spades
+#50. Jack of Spades
+#51. Queen of Spades
+#52. King of Spades
+
+]0;cs1c@cs1c-VirtualBox ~/HW/hw02[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/HW/hw02 $[00m exit
+exit
+
+Script done on Sun 13 Jun 2021 10:11:59 PM PDT
